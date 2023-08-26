@@ -51,13 +51,13 @@ body{
 
 }
 .button-1{
-    width: 140px;
-    height: 44px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    color: azure;
-    font-size: 18px;
-    background-color:#FF900E;
+   width: 140px;
+   height: 50px;
+   color: aliceblue;
+   background-color: #FF900E;
+   border: 0ch;
+   border-radius: 5px;
+   margin-bottom: 20px;
 }
 img{
     max-width: 100%;
@@ -71,18 +71,44 @@ img{
 /*----------------------
 styles on features part-2
 -----------------------*/
-img .img{
-    max-width: 100%;
-    width: 150px;
-    height: 150px;
-}
-.features-img {
-    background-color: chartreuse;
+.features{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-row-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+.img{
+    width: 300px;
+    height: 300px;
     margin-top: 40px;
-    margin-left: 80px;
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    border-radius: 3px;
+}
+.Quick-list{
+    margin-top: 90px;
+    margin-left: 20px;
 
 }
+span{
+    color: #727272;
+    font-weight: 400;
+}
+b{
+    color: #FF900E;
+    font-weight: 700;
 
+}
+.paragraph-1{
+    color: #727272;
+    font-size: 16px;
+}
+.button-2{
+    width: 140px;
+    height: 50px;
+    color: aliceblue;
+    background-color: #FF900E;
+    border: 0ch;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
